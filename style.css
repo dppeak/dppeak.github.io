@@ -5158,7 +5158,7 @@ div.forminput {
 }
 
 h3.subtitle {
-    margin-top: 0
+    margin-top: 10px
 }
 
 .clear-input {
@@ -6933,7 +6933,7 @@ ul.clean-list {
     background-color: #0D1013;
     color: #FFF;
     text-align: center;
-    padding: 150px 0;
+    padding: 300px 0;
     margin-top: 50px
 }
 
