@@ -8663,10 +8663,21 @@ ul.clean-list {
         -ms-flex: 1 1 100px;
         flex: 1 1 100px
     }
+    
+    .page-banner > .container.flex-this > .page-icon-wrap.med {
+        -webkit-box-flex: 1;
+        -ms-flex: 1 1 150px;
+        flex: 1 1 150px
+    }
 }
 
 .page-banner .page-icon-wrap {
     max-width: 100px;
+    margin: 0 auto 40px
+}
+
+.page-banner .page-icon-wrap.med {
+    max-width: 150px;
     margin: 0 auto 40px
 }
 
@@ -8697,6 +8708,10 @@ ul.clean-list {
     -webkit-box-flex: 0;
     -ms-flex: 0 1 auto;
     flex: 0 1 auto
+}
+
+.page-banner .page-icon-wrap.med img {
+    max-height: 150px;
 }
 
 .page-banner .page-icon-wrap + .page-banner-detailwrap {
