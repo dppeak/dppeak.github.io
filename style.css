@@ -8765,3 +8765,78 @@ ul.clean-list {
 .page-banner .breadcrumb > li > a {
     color: #FFF
 }
+
+.popcornCopy h4 {
+    color: #B51A00;
+    text-decoration: underline;
+}
+
+.popcornCopy .link {
+    margin-bottom: 2px;
+}
+
+.popcornCopy a {
+    font-weight: bold;    
+}
+
+hr.gradient {
+    border: 0;
+    height: 1px;
+    width: 90%;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+
+@media (min-width:768px) {
+    figure hr.gradient {
+        background: none;
+        border: 0;
+        clear: both;
+        display: block;
+        float: none;
+        font-size: 0;
+        padding: 0;
+        overflow: hidden;
+        visibility: hidden;
+        margin: 0;
+        height: 0;
+    }
+}
+q, blockquote {
+    font-style: italic;
+    quotes: "\201C" "\201D" "\2018" "\2019";
+    padding: 5px 5px;
+}
+
+q:before {
+  content: open-quote;
+  height: 0;
+  line-height: 0;
+  position: relative;
+  top: 5px;
+  font-size: 1.7em;
+}
+q:after {
+  content: close-quote;
+  height: 0;
+  line-height: 0;
+  position: relative;
+  top: 5px;
+  font-size: 1.7em;
+}
+
+.date, .time {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.time {
+    font-style: oblique;
+}
+
+.address {
+    margin-bottom: 0;
+}
