@@ -8841,7 +8841,8 @@ q:after {
     margin-bottom: 0;
 }
 
-figcaption ul { 
+figcaption ul {
+    font-size: 14px;
     display: block;
     list-style: none;
     padding-left: 0;
