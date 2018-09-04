@@ -8842,12 +8842,8 @@ q:after {
 }
 
 figcaption ul {
-    font-size: 13px;
+    font-size: 12px;
     display: block;
     list-style: none;
     padding-left: 0;
-}
-
-.left25 {
-    margin-left: 25px;
 }
