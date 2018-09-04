@@ -6626,8 +6626,38 @@ hr {
 
 .figure-inline figcaption {
     padding: 30px;
+    padding-right: 0;
     vertical-align: middle;
     display: inline-block
+}
+
+figure.col-sm-4 {
+    width: 110%;
+}
+
+@media (max-width: 475px) {
+    figure.col-sm-4 {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right: -20px;
+        margin-left: -20px;
+    }    
+}
+
+@media (max-width: 1200px) {
+    figure.text-sm-center {
+        text-align: left !important;
+    }    
+}
+
+@media (min-width: 1200px) {
+    .figure-inline figcaption {
+        padding-right: 30px;
+    }
+    figure.col-sm-4 {
+        width: 33.33333333%;
+    }
+    
 }
 
 @media (min-width:1600px) {
@@ -6957,7 +6987,7 @@ ul.clean-list {
 }
 
 .foot__logo {
-    margin-bottom: 40px;
+    margin: 20px 0px 30px;
     max-width: 80px;
     max-height: 91px
 }
