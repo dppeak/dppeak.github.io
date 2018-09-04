@@ -6653,6 +6653,7 @@ figure.col-sm-4 {
 @media (min-width: 1200px) {
     .figure-inline figcaption {
         padding-right: 30px;
+        padding-left: 30px;
     }
     figure.col-sm-4 {
         width: 33.33333333%;
