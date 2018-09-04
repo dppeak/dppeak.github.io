@@ -6350,7 +6350,7 @@ hr {
 @media (min-width:992px) {
     body:not(.wider-container) .bottom-pane .panelwrapper, body:not(.wider-container) .container,
     body:not(.wider-container) .top-pane .panelwrapper {
-        padding-left: 56px
+/*        padding-left: 56px*/
     }
 }
 
@@ -8766,6 +8766,9 @@ ul.clean-list {
     color: #FFF
 }
 
+.popcornCopy {
+    margin: 20px;
+}
 .popcornCopy h4 {
     color: #B51A00;
     text-decoration: underline;
