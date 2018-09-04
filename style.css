@@ -6635,7 +6635,7 @@ figure.col-sm-4 {
     width: 110%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     figure.col-sm-4 {
         padding-left: 0px;
         padding-right: 0px;
