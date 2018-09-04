@@ -6625,17 +6625,17 @@ hr {
 }
 
 .figure-inline figcaption {
-    padding: 30px;
+    padding: 30px 20px;
     padding-right: 0;
     vertical-align: middle;
     display: inline-block
 }
 
 figure.col-sm-4 {
-    width: 110%;
+    width: 120%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 475px) {
     figure.col-sm-4 {
         padding-left: 0px;
         padding-right: 0px;
