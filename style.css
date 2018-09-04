@@ -8681,6 +8681,9 @@ ul.clean-list {
     margin: 0 auto 40px
 }
 
+.goals {
+    text-align: center;
+}
 @media (min-width:992px) {
     .page-banner .page-icon-wrap {
         margin: 0;
