@@ -4,14 +4,18 @@
     <link href="style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow:300,300i,400,400i,600,600i,700,700i">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no">
-    <script>
-	    alert("hello");
-    </script>
     <title>
 	    Ethan Peak for President 2023
     </title>
   </head>
-  <body>
+  <body onload="playSong()">
+    <script>
+      function playSong() {
+	    var x = document.getElementById("myAudio"); 
+	    x.play();
+	    alert("hello");
+    }
+    </script>
     <main class="main-content">
       <div class="container">
         <figure>
