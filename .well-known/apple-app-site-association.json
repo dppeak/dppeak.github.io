@@ -3,7 +3,8 @@
         "apps": [
             "X546NV5VBG.com.veteransunited.my",
             "X546NV5VBG.com.veteransunited.my.uat",
-            "X546NV5VBG.com.veteransunited.my.dev"
+            "X546NV5VBG.com.veteransunited.my.dev",
+            "X546NV5VBG.com.veteransunited.my.dev-uat"
         ]
     },
     "applinks": {
@@ -28,10 +29,17 @@
                 ]
             },
             {
+                "appID": "X546NV5VBG.com.veteransunited.my.dev-uat",
+                "paths": [
+                    "*"
+                ]
+            },
+            {
                 "appIDs": [
                     "X546NV5VBG.com.veteransunited.my",
                     "X546NV5VBG.com.veteransunited.my.uat",
-                    "X546NV5VBG.com.veteransunited.my.dev"
+                    "X546NV5VBG.com.veteransunited.my.dev",
+                    "X546NV5VBG.com.veteransunited.my.dev-uat"
                 ],
                 "components": [
                     {
